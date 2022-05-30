@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockingHttpConsole", "MockingHttpConsole\MockingHttpConsole.csproj", "{BABDDAE8-ABE4-4E15-B45A-E6269637D044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockingHttpConsole_Tests", "MockingHttpConsole_Tests\MockingHttpConsole_Tests.csproj", "{1C5D0FF2-EEF4-4FF4-A277-E4736DD71379}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BABDDAE8-ABE4-4E15-B45A-E6269637D044} = {BABDDAE8-ABE4-4E15-B45A-E6269637D044}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABDDAE8-ABE4-4E15-B45A-E6269637D044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABDDAE8-ABE4-4E15-B45A-E6269637D044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABDDAE8-ABE4-4E15-B45A-E6269637D044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABDDAE8-ABE4-4E15-B45A-E6269637D044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5D0FF2-EEF4-4FF4-A277-E4736DD71379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5D0FF2-EEF4-4FF4-A277-E4736DD71379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5D0FF2-EEF4-4FF4-A277-E4736DD71379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5D0FF2-EEF4-4FF4-A277-E4736DD71379}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99177E6B-7EBB-4D4E-9420-5CF58DCA373D}
+	EndGlobalSection
+EndGlobal
