@@ -1,8 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MockingHttpConsole;
-using Newtonsoft.Json;
-using System.Reflection;
-using System.Text.Json;
 
 Console.WriteLine("*****************************************");
 Console.WriteLine("************  Make Post  ****************");
